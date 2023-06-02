@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.KnoxWDRActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9D9D9"
+        >
+
+        <TextView
+            android:id="@+id/back_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_back"
+            android:padding="10dp"
+            android:text="Back" />
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_search"
+                android:padding="10dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_menu"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@+id/back_tv"
+            android:layout_centerInParent="true"
+            android:text="knox Wing Drugs Room"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/list_view"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9D9D9"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Complete Check"
+            android:id="@+id/complete_tv"
+            android:layout_margin="15dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:background="@drawable/shape_btn_bg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Add Drug to Location"
+            android:id="@+id/add_drug_tv"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:background="@drawable/shape_btn_bg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

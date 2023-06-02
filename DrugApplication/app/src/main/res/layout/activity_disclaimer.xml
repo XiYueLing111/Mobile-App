@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint_layout"
+    tools:context=".activity.DisclaimerActivity">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="DISCLAIMER"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="The Drug Expiry Checking app is a\nPrototype version for Nurses at\nAngelsea Hospital.It is intended that\nthe app would provide insights into the\nuse of a mobile automative system\nthat supports Nurses and Staff at\nAngelsea Hospital, but in no way\nreflects the actual work-flow process.\nSystems change accordingly making\nolder versions redundant - Angelsea\nand Wintec | Te Pukenga take no\nresponsibility of outdated information\ndisplayed on the app. Upon accepting\nusage of the app assures that you\nunderstand these conditions."
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

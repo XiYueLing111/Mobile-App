@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AboutActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9D9D9"
+        >
+
+        <TextView
+            android:id="@+id/back_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_back"
+            android:padding="10dp"
+            android:text="Back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About this App"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create by"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ThinkTech"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="for"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anglesea Hospital"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team Leader"
+                android:background="@drawable/text_bottom_line"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:autoLink="all"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Germaine Matenga"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Database Design"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:autoLink="all"
+                android:background="@drawable/text_bottom_line"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ivan Heaslip"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Design"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:autoLink="all"
+                android:background="@drawable/text_bottom_line"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Georgia Robinson-Kearns"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programming"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:autoLink="all"
+                android:background="@drawable/text_bottom_line"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Randika Sarimanne"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arina Lou"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yongqi Zheng"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
