@@ -1,0 +1,2 @@
+com/drug/application/BuildConfig.java
+ com.drug.application.BuildConfig

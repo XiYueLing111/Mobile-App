@@ -10,6 +10,8 @@ import kotlinx.android.synthetic.main.activity_knox_wdractivity.*
 import com.drug.application.adapter.DrugAdapter
 import com.drug.application.diglog.ExitTipDialog
 import com.drug.application.diglog.SignDateDiaolog
+import com.github.gcacace.signaturepad.views.SignaturePad
+import kotlinx.android.synthetic.main.dialog_sign_date.*
 
 
 class KnoxWDRActivity : AppCompatActivity() {
@@ -92,6 +94,7 @@ class KnoxWDRActivity : AppCompatActivity() {
         edialog.show()
         edialog.setOnclickListener(object :View.OnClickListener{
             override fun onClick(v: View) {
+                
                 if(v.id == R.id.negetiveimgexit){
                     edialog.dismiss()
                 }
